@@ -1,0 +1,98 @@
+<doctype html!>
+<html>
+<head>
+<style>
+  body{background-color:#BDB76B;}
+body{
+    margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'poppins', sans-serif;
+}  
+.container{
+     display: flex;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+}
+.container .box{
+     position: relative;
+	 width: 350px;
+	 padding: 40px;
+	 background: rgb(189, 186, 186);
+	 box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+	 border-radius: 4px;
+	 margin: 20px;
+	 box-sizing: border-box;
+	 overflow: hidden;
+     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); /* Line used to add reflection below the box */
+     transition: transform 2s; /* This line used to add time to increase the size of box on click */
+}
+#b1:hover, #b2:hover, #b3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 background: rgba(0, 0, 0, 0.4);
+     color: white;    
+     transform: scale(1.2);     /* This line used to increase the size of box on click */
+     text-shadow: 2px 1px black;    
+     -webkit-box-reflect: unset /* Line used to remove reflection below the box on click */ 
+}
+
+#bb1, #bb2, #bb3, h3{
+    text-align: center;
+}
+
+/* below code to hide the numbers 01, 02, 03*/
+#b1:hover #bb1{
+    display:none;
+}
+
+#b2:hover #bb2{
+    display:none;
+}
+
+#b3:hover #bb3{
+    display:none;
+}
+/* End of code to hide numbers */
+
+</style>
+</head>
+<body>
+     <div class="container">
+
+            <div class="box" id="b1">
+		        <div id="bb1"><h2 >01</h2></div>
+                <div>
+                    <h3>Service One</h3>    
+                    <p>Anytime fitness is also known as a fitness club, fitness center, health spa, 
+                    and community reffered reffered as a gym.</p>
+                </div>
+             </div>    
+
+			<div class="box" id="b2">
+			     <div id="bb2"><h2>02</h2></div>
+                 <div>
+                    <h3>Service Two</h3>    
+                    <p>Aerobic activities condition your heat and lungs
+                    Aerobic means "With oxygen".the main purpose of this 
+                    is to develope the oxygen level in the body which will
+                    all your muscles to work longer.</p>
+                 </div>
+            </div>   
+
+			<div class="box" id="b3">
+			    <div><h2 id="bb3">03</h2></div>   
+                <div>
+                    <h3>Service Three</h3>    
+                    <p>Flexibility.Like areobic fitness and muscles strengthening,
+                    flexibility is a result of physical activity.</p>
+                </div>
+            </div> 
+     </div>
+</body>
+</html>
+
+ 
+ 

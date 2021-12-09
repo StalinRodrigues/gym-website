@@ -1,0 +1,72 @@
+<!doctypehtml>
+<html>
+<head>
+<style>
+  body{background-color:#BDB76B;}
+body{
+    margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-familyL: 'poppins', sans-serif;
+}  
+.container{
+     display: flex;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+}
+.container .box{
+     position: relative;
+	 width: 350px;
+	 padding: 40px;
+	 background: #fff;
+	 box-shadow: 0 5px 15px; rgba(0,0,0,.1);
+	 border-radius: 4px;
+	 margin: 20px;
+	 box-sizing: border-box;
+	 overflow: hidden;
+}
+#b1:hover{
+     box-shadow: 5px 5px 15px; rgba(0,0,0,.1);
+	 background: cyan;
+}
+#b2:hover{
+     box-shadow: 5px 5px 15px; rgba(0,0,0,.1);
+	 background: #FFD580;
+}
+#b3:hover{
+     box-shadow: 5px 5px 15px; rgba(0,0,0,.1);
+	 background: #FFB6C1;
+}
+#b1:hover + .h1{
+        opacity: 0; 
+}
+</style>
+</head>
+<body>
+     <div class="container">
+            <div class="box" id="b1">
+		        <div class="h1"><h2 >01</h2></div>
+                 <h3>Service One</h3>    
+                 <p>Anytime fitness is also known as a fitness club, fitness center, health spa, 
+				 and community reffered reffered as a gym.</p>
+             </div>    
+			<div class="box" id="b2">
+			     <h2 class="h2">02</h2>
+                 <h3>Service Two</h3>    
+                 <p>Aerobic activities condition your heat and lungs
+				 Aerobic means "With oxygen".the main purpose of this 
+				 is to develope the oxygen level in the body which will
+                 all your muscles to work longer.</p>
+            </div>   
+			<div class="box"id="b3">
+			<h2 class="h3">03</h2>
+                 <h3>Service Three</h3>    
+                 <p>Flexibility.Like areobic fitness and muscles strengthening,
+				 flexibility is a result of physical activity.</p>
+            </div> 
+     </div>
+</body>
+</html>

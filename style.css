@@ -1,0 +1,104 @@
+header{ 
+    margin: 0px;
+	padding: 0px;
+	widht: 100%;
+	height: 100px;	
+}	
+	
+body{
+	 background:#BDB76B;
+}
+
+.nav{
+	 widht: 100%;
+	 height: 100px;
+	 display:flex;
+	 justify-content: space-evenly;
+	 align-items: center;
+	 clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%); 
+	
+}
+
+.Logo{
+	 font-size: 50px;
+	 font-weight:bold;
+     letter-spacing: 5px;	 
+}
+
+#VIOLET{
+	color:#8A2BE2;
+}
+
+.menu{
+	  widht: 50%;
+	  height: 50px;
+	  justify-content:space-evenly;
+	  align-items: center;
+	  text-align:center;
+} 
+ul{
+	float: center;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+ul li{
+	   display: inline-block;
+}
+
+ul li a {
+	      text-decoration: none;
+		  color: #8A2BE2;
+		  padding: 5px 20px;
+		  border: 1px solid black;
+		  transition: 0.6s ease;
+}
+
+ul li a:hover{
+	            background-color: #fff;
+				color: #000;
+}
+
+
+.container{
+	width:100px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.left{	
+    
+	float: left;
+	width: 50%;
+	background-size: 10px;
+}
+
+.right{
+	float: right;
+	width: 50%;
+	max-width: 400px;
+}
+
+.right h1{
+	color:#8A2BE2;
+	font-size: 50px;
+}
+
+.right p{
+	font-size: 25px;
+	margin: 10px 0px;
+}
+
+.btn{
+	background: transparent;
+	padding: 10px 20px;
+	color: #8A2BE2;
+	border: 1px solid #8A2BE2;
+	border-radius: 8px;
+}
+.btn:hover{
+	            background-color: #fff;
+				color: #000;
+}
+
